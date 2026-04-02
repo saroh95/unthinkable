@@ -134,14 +134,4 @@ The backend sends a system + user prompt that enforces:
 
 You can adjust this in `server/src/index.js` if you want to experiment with different prompting strategies.
 
-### 8. How to record a demo video
-
-1. Start MongoDB (optional, if you want history).
-2. Run `npm run dev` in `server`, and `npm run dev` in `client`.
-3. Open the frontend in a browser.
-4. Show:
-   - entering various symptom descriptions,
-   - the response with disclaimer and red‑flag guidance,
-   - (optional) MongoDB entries using a GUI like MongoDB Compass.
-5. Briefly point to the code (API route, React form, disclaimer logic) to demonstrate design and safety focus.
 
